@@ -110,8 +110,7 @@
       ifcScript.type = 'module'
       document.body.appendChild(ifcScript)
 
-      console.log(window.jekyll)
-      let ghbase
+      let ghbase = '{{ site.ghbase }}'
       if (window.jekyll?.site?.github?.owner_name) {
         let owner = window.jekyll.site.github.owner_name
         let repo = window.jekyll.site.github.repository_name
@@ -136,7 +135,6 @@
                 section.innerHTML = `<div class="prompt" id="item-${idx}">${section.innerHTML}</div><sl-copy-button style="align-self: flex-end;" from="item-${idx}"></sl-copy-button>`
               }
             })
-            console.log(location)
             main.querySelectorAll('img').forEach(img => {
               let imgUrl = new URL(img.src)
               if (location.origin === imgUrl.origin) {
