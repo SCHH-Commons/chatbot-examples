@@ -10,7 +10,7 @@ Lorem ipsum odor amet, consectetuer adipiscing elit. Nam gravida justo torquent 
 
 {{site.baseurl}}
 
-`chatlog ../chats/art-styles.md ghbase=schh-commons/chatbot-examples/main/_posts`
+`chatlog ../chats/art-styles.md ghbase=schh-commons/chatbot-examples/main`
 
 ===
 
