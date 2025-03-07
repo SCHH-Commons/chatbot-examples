@@ -110,9 +110,20 @@
       ifcScript.type = 'module'
       document.body.appendChild(ifcScript)
 
+      console.log(window.jekyll)
+      let ghbase
+      if (window.jekyll?.site?.github?.owner_name) {
+        let owner = window.jekyll.site.github.owner_name
+        let repo = window.jekyll.site.github.repository_name
+        let branch = window.jekyll.site.github.source.branch
+        let dir = window.jekyll.site.baseurl
+        ghbase = `${owner}/${repo}/${branch}`
+      }
+      console.log(`ghbase: ${ghbase}`)
+
       const dialog = document.getElementById('image-viewer')
       const dialogImg = dialog.querySelector('img')
-  
+
       new MutationObserver((mutations) => {
         mutations.forEach(mutation => {
           if (mutation.target.tagName === 'ARTICLE' && mutation.target.classList.contains('post')) {
@@ -125,7 +136,9 @@
                 section.innerHTML = `<div class="prompt" id="item-${idx}">${section.innerHTML}</div><sl-copy-button style="align-self: flex-end;" from="item-${idx}"></sl-copy-button>`
               }
             })
+            console.log(location)
             main.querySelectorAll('img').forEach(img => {
+              console.log(new URL(img.src))
               img.addEventListener('click', () => { 
                 dialogImg.src = img.src
                 dialog.show()
