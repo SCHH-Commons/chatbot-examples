@@ -143,7 +143,6 @@
               if (location.origin === imgUrl.origin) {
                 img.src = `https://raw.githubusercontent.com/${ghbase}${imgUrl.pathname}`
               }
-              img.src = ``
               img.addEventListener('click', () => { 
                 dialogImg.src = img.src
                 dialog.show()
