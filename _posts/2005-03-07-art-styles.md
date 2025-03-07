@@ -10,7 +10,7 @@ Lorem ipsum odor amet, consectetuer adipiscing elit. Nam gravida justo torquent 
 
 {{site.baseurl}}
 
-`chatlog chats/art-styles.md ghbase=schh-commons/chatbot-examples/main`
+`chatlog ../chats/art-styles.md ghbase=schh-commons/chatbot-examples/main/_posts`
 
 ===
 
@@ -51,7 +51,7 @@ Generate a picture of a landscape with a farmhouse and field of sunflowers.  Inc
 
 Here is the generated image of a picturesque countryside landscape featuring a farmhouse, a field of sunflowers, a red barn, and a wooden fence. Let me know if you'd like any modifications!
 
-![](chats/photos/farmhouse-landscape.jpg)
+![](photos/farmhouse-landscape.jpg)
 
 === 
 
@@ -61,7 +61,7 @@ Re-render this in the Impressionism style.
 
 Here is the re-rendered image in the Impressionist style, featuring expressive brushstrokes and a dreamy, painterly effect. Let me know if you’d like any further refinements!
 
-![](chats/photos/farmhouse-landscape-impressionism.jpg)
+![](photos/farmhouse-landscape-impressionism.jpg)
 
 ===
 
@@ -71,7 +71,7 @@ Now, in the Expressionism style.
 
 Here is the re-rendered image in the Expressionist style, featuring bold colors, dynamic brushstrokes, and an intense, energetic atmosphere. Let me know if you’d like any modifications!
 
-![](chats/photos/farmhouse-landscape-expressionism.jpg)
+![](photos/farmhouse-landscape-expressionism.jpg)
 
 ===
 
@@ -81,7 +81,7 @@ Let's try Romanticism next.
 
 Here is the re-rendered image in the Romanticism style, featuring rich details, a dramatic sky, and a warm, nostalgic atmosphere. Let me know if you’d like any further adjustments!
 
-![](chats/photos/farmhouse-landscape-romanticism.jpg)
+![](photos/farmhouse-landscape-romanticism.jpg)
 
 ===
 
@@ -91,7 +91,7 @@ Let's see it using the Cubism style.
 
 Here is the re-rendered image in the Cubism style, with fragmented geometric shapes and multiple perspectives blending together. Let me know if you’d like any further adjustments!
 
-![](chats/photos/farmhouse-landscape-cubism.jpg)
+![](photos/farmhouse-landscape-cubism.jpg)
 
 ===
 
@@ -101,5 +101,5 @@ Now, a depiction in the Surrealism style.
 
 Here is the re-rendered image in the Surrealism style, with dreamlike distortions, floating sunflowers, and an otherworldly atmosphere. Let me know if you’d like any further modifications!
 
-![](chats/photos/farmhouse-landscape-surrealism.jpg)
+![](photos/farmhouse-landscape-surrealism.jpg)
 
