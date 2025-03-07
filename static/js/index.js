@@ -8,8 +8,14 @@ if (contentEl) {
     console.log(codeEl)
     let codeText = codeEl.textContent.trim()
     if (codeText.startsWith('include')) {
+      let paraEl = codeEl.parentElement
       let includeSrc = codeText.split(' ').filter(pe => pe)[1]
-      codeEl.innerHTML = includeSrc
+      paraEl.innerHTML = includeSrc
+      /*
+      fetch(includeSrc)
+        .then((response) => response.text())
+        .then((text) => paraEl.innerHTML = text)
+      */
     }
   })
 }
