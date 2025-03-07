@@ -1,0 +1,16 @@
+title: Website Title
+description: >
+  Website Description
+author:
+  name: GitHub User
+  email: your-email@domain.com
+
+nav_pages:
+  - about.md
+show_excerpts: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+content_selector: div.post-content,div.home
