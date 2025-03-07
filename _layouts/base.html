@@ -138,7 +138,6 @@
             })
             console.log(location)
             main.querySelectorAll('img').forEach(img => {
-              console.log()
               let imgUrl = new URL(img.src)
               if (location.origin === imgUrl.origin) {
                 img.src = `https://raw.githubusercontent.com/${ghbase}${imgUrl.pathname}`
