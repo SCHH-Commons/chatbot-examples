@@ -11,11 +11,12 @@ if (contentEl) {
       let paraEl = codeEl.parentElement
       let includeSrc = codeText.split(' ').filter(pe => pe)[1]
       paraEl.innerHTML = includeSrc
-      /*
       fetch(includeSrc)
-        .then((response) => response.text())
-        .then((text) => paraEl.innerHTML = text)
-      */
+        .then((response) => response.html())
+        .then((html) => {
+          console.log(html)
+          paraEl.innerHTML = html
+      })
     }
   })
 }
