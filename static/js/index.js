@@ -12,7 +12,7 @@ if (contentEl) {
       let includeSrc = codeText.split(' ').filter(pe => pe)[1]
       paraEl.innerHTML = includeSrc
       fetch(includeSrc)
-        .then((response) => response.html())
+        .then((response) => response.text())
         .then((html) => {
           console.log(html)
           paraEl.innerHTML = html
