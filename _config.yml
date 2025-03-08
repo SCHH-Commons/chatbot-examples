@@ -16,3 +16,5 @@ plugins:
 ghbase: "schh-commons/chatbot-examples/main"
 
 content_selector: div.post-content,div.home
+
+url: chatbot-examples
