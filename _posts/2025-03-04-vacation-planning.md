@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Vacation Planning
-description: 
+description: Get itinerary suggestions for a road-trip vacation to Maine.
 date: 2025-03-04
 tags: genai
 author: Ron Snyder

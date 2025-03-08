@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deep Research
-description: 
+description: Example using ChatGPT's Deep Research, an agent that uses reasoning to synthesize large amounts of online information and complete multi-step research tasks.
 date: 2025-03-04
 tags: genai
 author: Ron Snyder
