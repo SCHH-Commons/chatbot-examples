@@ -87,3 +87,24 @@ sl-copy-button::part(button) { padding-top: 3px; }
 .prompt-wrapper:hover > sl-copy-button { opacity: 1; }
 .prompt img, .response img { display: block; margin: 6px 0; border: 1px solid #ddd; border-radius: 6px; width: 200px; max-width: 50%; min-width: 200px; box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; }
 sl-dialog::part(body) { padding: 0; }
+
+/*
+section.response > p:first-of-type::before {
+  content: url('/static/images/chatgpt.svg');
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+*/
+
+ul.tag-list { display: inline-flex; list-style: none; padding: 0; margin:0; margin-bottom: 1em; }
+ul.tag-list > li { margin-left: 0.5em; }
+
+article.post > header {
+  background-color: #eee;
+  padding: 1em;
+}
+
+td { overflow-wrap: break-word; word-wrap: break-word; -ms-word-break: break-all; word-break: break-all; }

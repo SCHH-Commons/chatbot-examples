@@ -3,7 +3,7 @@ layout: post
 title: Complaint Letter
 description: 
 date: 2025-03-04
-tags: genai
+tags: Generative_AI Writing_Assistance
 author: Ron Snyder
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: base
 ---
+
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -32,6 +33,11 @@ layout: base
         {% endfor %}
       </div>
       {%- endif %}
+
+      <br/><span class="post-meta">Tags:</span>
+      {% for tag in page.tags %}
+        <a href="{{ site.url }}/tag/{{ tag }}">{{ tag }}</a>
+      {% endfor %}
       
     </div>
   </header>

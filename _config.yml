@@ -1,9 +1,9 @@
-title: Website Title
+title: Chatbot Examples
 description: >
-  Website Description
+  Chatlogs from various chatbot examples.
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Ron Snyder
+  email: ron@snyderjr.com
 
 nav_pages:
   - about.md

@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: Art"
-tag: Arg
+title: "Tag: Planning"
+tag: Planning
 robots: noindex
 ---

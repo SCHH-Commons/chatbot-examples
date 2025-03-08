@@ -3,12 +3,14 @@ layout: post
 title: Vacation Planning
 description: Get itinerary suggestions for a road-trip vacation to Maine.
 date: 2025-03-04
-tags: genai
+tags: Generative_AI Planning
 author: Ron Snyder
 ---
 
 #
 `.intro`
+
+In this example itinerary suggestions are requested for a road trip to Maine.
 
 ---
 

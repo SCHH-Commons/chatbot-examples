@@ -3,7 +3,7 @@ layout: post
 title: Exploring Art Styles
 description: Chatbot session in which an image is generated and then re-rendered in a variety of artistic styles.
 date: 2025-03-07
-tags: genai art
+tags: Generative_AI Art
 author: Ron Snyder
 ---
 
