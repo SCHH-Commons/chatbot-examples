@@ -25,6 +25,16 @@ layout: base
   {% endfor %}
   </ul>
 
+  <br/><span>Tags:</span>
+  <ul class="tag-list">
+  {% assign sortedtags = tags | split:' ' | sort %}
+  {% for tag in sortedtags %}
+    <li>
+      <a href="/tag/{{ tag }}">{{ tag }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
