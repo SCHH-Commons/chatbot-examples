@@ -3,7 +3,7 @@ layout: post
 title: Menu Recommendations
 description: 
 date: 2025-03-04
-tags: Generative_AI
+tags: advice food
 author: Ron Snyder
 ---
 

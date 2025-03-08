@@ -3,7 +3,7 @@ layout: post
 title: Floor Plan Analysis
 description: 
 date: 2025-03-04
-tags: Generative_AI
+tags: advice
 author: Ron Snyder
 ---
 

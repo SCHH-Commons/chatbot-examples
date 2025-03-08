@@ -1,6 +1,0 @@
----
-layout: tagpage
-title: "Tag: Art"
-tag: Arg
-robots: noindex
----

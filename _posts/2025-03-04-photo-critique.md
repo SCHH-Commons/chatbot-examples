@@ -3,7 +3,7 @@ layout: post
 title: Photo Critique
 description: 
 date: 2025-03-04
-tags: Generative_AI
+tags: creativity productivity advice education
 author: Ron Snyder
 ---
 

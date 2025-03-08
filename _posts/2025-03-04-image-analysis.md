@@ -3,7 +3,7 @@ layout: post
 title: Image Analysis
 description: 
 date: 2025-03-04
-tags: Generative_AI
+tags: creativity education
 author: Ron Snyder
 ---
 

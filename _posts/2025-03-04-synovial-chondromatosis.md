@@ -3,7 +3,7 @@ layout: post
 title: Medical Information
 description: 
 date: 2025-03-04
-tags: Generative_AI
+tags: advice education research
 author: Ron Snyder
 ---
 

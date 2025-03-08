@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Deep Research
-description: Example using ChatGPT's Deep Research, an agent that uses reasoning to synthesize large amounts of online information and complete multi-step research tasks.
+title: Social Security Research
+description: A deep dive into the design and current challenges of the US Social Security system.  The research includes an overview of the system as it currently exists and discusses possible solutions to ensure long-term viability.
 date: 2025-03-04
-tags: Generative_AI Deep_Research
+tags: education research advice
 author: Ron Snyder
 ---
 

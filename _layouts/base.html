@@ -50,7 +50,7 @@
       </div>
     </header>
 
-    <main class="page-content" aria-label="Content" style="display: none; opacity: 0;">
+    <main class="page-content" aria-label="Content" >
 
       <div class="wrapper">
         {{ content }}
@@ -102,6 +102,7 @@
     <script type="module">
       import { marked } from 'https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js'
       import 'https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/components/copy-button/copy-button.js';
+      import 'https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/components/details/details.js';
       import 'https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/components/dialog/dialog.js';
 
       window.jekyll = {site:{baseurl:'{{site.baseurl}}',github:{owner_name:'{{site.github.owner_name}}',repository_name:'{{site.github.repository_name}}',source:{branch:'{{site.github.source.branch}}'}}},page:{path:'{{page.path}}',dir:'{{page.dir}}',name:'{{page.name}}'}}

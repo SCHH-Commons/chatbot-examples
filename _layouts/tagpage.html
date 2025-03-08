@@ -4,6 +4,9 @@ layout: base
 
 <div class="post">
 <h1 class="tag-title">Tag: {{ page.tag }}</h1>
+
+{{ content }}
+
 <ul>
 {% for post in site.tags[page.tag] %}
   {% if post.lang %}

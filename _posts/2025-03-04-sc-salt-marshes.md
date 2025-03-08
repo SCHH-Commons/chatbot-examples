@@ -3,7 +3,7 @@ layout: post
 title: South Carolina Salt Marshes
 description: 
 date: 2025-03-04
-tags: Generative_AI
+tags: education research
 author: Ron Snyder
 ---
 

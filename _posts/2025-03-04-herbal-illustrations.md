@@ -3,7 +3,7 @@ layout: post
 title: Herbal Illustrations
 description: 
 date: 2025-03-04
-tags: Generative_AI
+tags: education productivity
 author: Ron Snyder
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: iPhone Email Troubleshooting
 description: 
 date: 2025-03-04
-tags: Generative_AI
+tags: tech productivity education
 author: Ron Snyder
 ---
 

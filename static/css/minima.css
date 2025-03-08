@@ -645,6 +645,9 @@ table td {
 .post-list > li {
   margin-bottom: 30px;
 }
+.post-list h3 {
+  margin-bottom: 0;
+}
 
 .post-meta {
   font-size: 14px;
