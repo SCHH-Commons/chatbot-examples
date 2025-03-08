@@ -13,6 +13,9 @@ Most of the conversations featured here were generated using **ChatGPT**, but th
 
 Additionally, **images included in the chatlogs**—whether they appear in prompts or AI responses—**are clickable**. When clicked, they will expand in a **popup window**, allowing you to view them in more detail without leaving the conversation.  
 
+## Stay Updated with RSS  
+This site offers an **RSS feed**, which allows you to stay up to date with new posts without needing to check the site manually. **RSS (Really Simple Syndication)** is a web feed format that lets you subscribe to updates using an RSS reader or a compatible web browser. When a new chatbot conversation is published, it will automatically appear in your feed, keeping you informed of the latest examples. You can use an RSS reader like **Feedly, Inoreader, or even a browser extension** to subscribe and receive updates conveniently.  
+
 ## How to Use This Site  
 Each post is tagged by topic, making it easy to filter and find relevant examples. Whether you're exploring how to phrase a chatbot query, looking for inspiration, or just curious about what AI can do, this site serves as a helpful reference for seeing AI in action.  
 
