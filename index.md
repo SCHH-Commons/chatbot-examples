@@ -4,6 +4,7 @@
 # between the top bar and the list of recent posts.
 #
 layout: home
+title: Chatbot Examples
 ---
 
 # Welcome!
