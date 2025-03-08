@@ -6,7 +6,7 @@
 layout: home
 ---
 
-## Welcome to Chatbot Conversations!
+# Welcome to Chatbot Conversations!
 
 This site is a collection of real-world chatbot interactions, showcasing how AI can assist with everyday tasks. From drafting emails and answering questions to planning trips and troubleshooting tech issues, each post presents an actual chatbot session that demonstrates the possibilities of AI-powered assistance. Every conversation is categorized with tags, making it easy to browse and find examples relevant to your needs.
 
