@@ -20,7 +20,7 @@ layout: base
   {% assign sortedtags = tags | split:' ' | sort %}
   {% for tag in sortedtags %}
     <li>
-      <a href="tag/{{ tag }}">{{ tag }}</a>
+      <a href="{{ site.url }}/tag/{{ tag }}">{{ tag }}</a>
     </li>
   {% endfor %}
   </ul>
