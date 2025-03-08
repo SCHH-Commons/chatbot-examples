@@ -1,8 +1,10 @@
 ---
 layout: tagpage
-title: "Tag: Education"
+title: Education
 tag: education
 robots: noindex
 ---
 
 Learning assistance, study tips, knowledge-building, and explanations.
+
+---

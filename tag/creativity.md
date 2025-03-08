@@ -1,8 +1,10 @@
 ---
 layout: tagpage
-title: "Tag: Creativity"
+title: Creativity
 tag: creativity
 robots: noindex
 ---
 
 Art, design, music, hobbies, DIY, and personal projects.
+
+---

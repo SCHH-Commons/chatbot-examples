@@ -1,8 +1,10 @@
 ---
 layout: tagpage
-title: "Tag: Food"
+title: Food
 tag: food
 robots: noindex
 ---
 
 Meal planning, recipes, nutrition, and cooking tips.
+
+---

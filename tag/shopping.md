@@ -1,8 +1,10 @@
 ---
 layout: tagpage
-title: "Tag: Shopping"
+title: Shopping
 tag: shopping
 robots: noindex
 ---
 
 Product recommendations, comparisons, and purchase advice.
+
+---

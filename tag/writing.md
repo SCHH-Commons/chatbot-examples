@@ -1,8 +1,10 @@
 ---
 layout: tagpage
-title: "Tag: Writing"
+title: Writing
 tag: writing
 robots: noindex
 ---
 
 Content creation, editing, brainstorming, creative writing.
+
+---

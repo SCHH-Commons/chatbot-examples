@@ -1,8 +1,10 @@
 ---
 layout: tagpage
-title: "Tag: Entertainment"
+title: Entertainment
 tag: entertainment
 robots: noindex
 ---
 
 Movies, books, music, and fun interactions.
+
+---
