@@ -14,9 +14,9 @@ layout: base
     {% endfor %}
   {% endcapture %}
   
-  <div class="site-tags" style="background-color: #f8f8f8; padding: 6px; border-radius: 5px; font-size:larger">
-    <span>Tags:</span>
-    <ul class="tag-list" style="margin-bottom:0;">
+  <div class="site-tags" style="display: flex; background-color: #f8f8f8; padding: 6px; border-radius: 5px;">
+    <span style="font-weight:500;">Tags:</span>
+    <ul class="tag-list" style="margin-bottom:0; display:flex; ">
     {% assign sortedtags = tags | split:' ' | sort %}
     {% for tag in sortedtags %}
       <li>
@@ -26,7 +26,7 @@ layout: base
     </ul>
   </div>
 
-  <sl-details summary="Details">
+  <sl-details summary="Details" style="display:none;">
     <ul>
         <li><a href="{{ site.url }}/tag/advice">💡 Advice</a> - Expert-like recommendations, guidance, decision-making</li>
         <li><a href="{{ site.url }}/tag/creativity">🎨 Creativity</a> – Art, design, music, hobbies, DIY, and personal projects</li>
