@@ -1,7 +1,7 @@
 ---
 layout: post
 title: iPhone Email Troubleshooting
-description: 
+description: Use the AI chatbot to guide troubleshooting of an email problem encountered on an iPhone.
 date: 2025-03-04
 tags: tech productivity education
 author: Ron Snyder

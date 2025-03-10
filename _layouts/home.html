@@ -6,59 +6,35 @@ layout: base
 
   {{ content }}
 
-  <hr style="margin:0;"/>
-
   {% capture tags %}
     {% for tag in site.tags %}
       {{ tag[0] }}
     {% endfor %}
   {% endcapture %}
-  
-  <div class="site-tags" style="display: flex; background-color: #f8f8f8; padding: 6px; border-radius: 5px;">
-    <span style="font-weight:500;">Tags:</span>
-    <ul class="tag-list" style="margin-bottom:0; display:flex; ">
-    {% assign sortedtags = tags | split:' ' | sort %}
-    {% for tag in sortedtags %}
-      <li>
-        <a href="{{ site.url }}/tag/{{ tag }}">{{ tag }}</a>{% if forloop.last != true %},{% endif %}
-      </li>
-    {% endfor %}
-    </ul>
-  </div>
 
-  <sl-details summary="Details" style="display:none;">
-    <ul>
-        <li><a href="{{ site.url }}/tag/advice">💡 Advice</a> - Expert-like recommendations, guidance, decision-making</li>
-        <li><a href="{{ site.url }}/tag/creativity">🎨 Creativity</a> – Art, design, music, hobbies, DIY, and personal projects</li>
-        <li><a href="{{ site.url }}/tag/education">📚 Education</a> – Learning assistance, study tips, knowledge-building, and explanations</li>
-        <li><a href="{{ site.url }}/tag/entertainment">🎬 Entertainment</a> – Movies, books, music, and fun interactions</li>
-        <li><a href="{{ site.url }}/tag/finance">💰 Finance</a> – Budgeting, investing, financial planning, money management</li>
-        <li><a href="{{ site.url }}/tag/food">🍽️ Food</a> – Meal planning, recipes, nutrition, and cooking tips</li>
-        <li><a href="{{ site.url }}/tag/productivity">📅 Productivity</a> – Task management, organization, efficiency, workflow planning</li>
-        <li><a href="{{ site.url }}/tag/research">🔍 Research</a> – Deep dives into topics, fact-finding, learning, analysis</li>
-        <li><a href="{{ site.url }}/tag/shopping">🛍️ Shopping</a> – Product recommendations, comparisons, and purchase advice</li>
-        <li><a href="{{ site.url }}/tag/tech">💻 Tech</a> – Troubleshooting, coding help, AI tools, and tech-related advice</li>
-        <li><a href="{{ site.url }}/tag/travel">✈️ Travel</a> – Vacation planning, itineraries, destinations, and trip ideas</li>
-        <li><a href="{{ site.url }}/tag/writing">📝 Writing</a> – Content creation, editing, brainstorming, creative writing</li>    
-    </ul>
-</sl-details>
+  {% assign num_tags = tags | number_of_words %}    
+  {%- if num_tags > 0 -%}
+    <hr style="margin:0;"/>
+    <div class="site-tags" style="display: flex; background-color: #f8f8f8; padding: 6px; border-radius: 5px; flex-wrap: wrap;">
+      <span style="font-weight:500;">Tags:&nbsp;</span>
+      {% assign sortedtags = tags | split:' ' | sort %}
+      {% for tag in sortedtags %}
+        <a href="tag/{{ tag }}">{{ tag }}</a>{% if forloop.last != true %},&nbsp;{% endif %}
+      {% endfor %}
+    </div>
+    <hr style="margin:0;"/><br/>
+  {%- endif -%}
 
-  <hr style="margin:0;"/>
-  <br/>
-
-  {% if site.paginate %}
-    {% assign posts = paginator.posts %}
-  {% else %}
-    {% assign posts = site.posts %}
-  {% endif %}
-
+  {% assign posts = site.posts %}
   {%- if posts.size > 0 -%}
+
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
+  
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
+      {%- for post in site.posts -%}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
@@ -66,6 +42,7 @@ layout: base
             {{ post.title | escape }}
           </a>
         </h3>
+
         {%- if site.show_excerpts -%}
           {%- if post.description -%}
             {% assign excerpt = post.description %}
@@ -74,32 +51,26 @@ layout: base
           {%- endif -%}
           {{ excerpt }}
         {%- endif -%}
-        <br/><span class="post-meta">Tags:</span>
-        {% for tag in post.tags %}
-          <a href="{{ site.url }}/tag/{{ tag }}">{{ tag }}</a>{% if forloop.last != true %},{% endif %}
-        {% endfor %}
-      </li>
 
+        {% capture post_tags %}
+          {% for post_tag in post.tags %}
+            {{ post_tag[0] }}
+          {% endfor %}
+        {% endcapture %}
+        
+        {% assign num_post_tags = post.tags.size %}    
+        {%- if num_post_tags> 0 -%}
+          {% assign sortedtags = post_tags | split:' ' | sort %}
+          <br/><span class="post-meta">Tags:</span>
+          {% for tag in post.tags %}
+            <!-- <a href="{{ site.url }}/tag/{{ tag }}">{{ tag }}</a>{% if forloop.last != true %},{% endif %} -->
+            <a href="tag/{{ tag }}">{{ tag }}</a>{% if forloop.last != true %},{% endif %}
+          {% endfor %}
+        {%- endif -%}
+
+      </li>
       {%- endfor -%}
     </ul>
-
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
-      </div>
-    {%- endif %}
 
   {%- endif -%}
 

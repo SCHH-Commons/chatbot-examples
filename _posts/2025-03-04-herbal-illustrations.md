@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Herbal Illustrations
-description: 
+description: Learn about how illustrations were created in a document published in 1601.  The illustrations are found in a botanical herbal and were created using a woodcut printing process.
 date: 2025-03-04
 tags: education productivity
 author: Ron Snyder

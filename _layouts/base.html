@@ -50,8 +50,7 @@
       </div>
     </header>
 
-    <main class="page-content" aria-label="Content" >
-
+    <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
       </div>
@@ -64,6 +63,8 @@
     
         <div class="footer-col-wrapper">
           <div class="footer-col">
+            
+          {%- if site.show_rss_feed %}
             <p class="feed-subscribe">
               <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
                 <svg class="svg-icon orange">
@@ -75,6 +76,9 @@
                 </svg><span>Subscribe</span>
               </a>
             </p>
+          {%- endif %}
+
+          <!--
           {%- if site.author %}
             <ul class="contact-list">
               {% if site.author.name -%}
@@ -85,6 +89,8 @@
               {%- endif %}
             </ul>
           {%- endif %}
+          -->
+
           </div>
           <div class="footer-col">
             <p>{{ site.description | escape }}</p>
@@ -107,6 +113,14 @@
 
       window.jekyll = {site:{baseurl:'{{site.baseurl}}',github:{owner_name:'{{site.github.owner_name}}',repository_name:'{{site.github.repository_name}}',source:{branch:'{{site.github.source.branch}}'}}},page:{path:'{{page.path}}',dir:'{{page.dir}}',name:'{{page.name}}'}}
       window.contentSelector = '{{ site.content_selector }}'
+      window.ghbase = '{{ site.ghbase }}'
+      if (window.jekyll.site.github.owner_name) {
+        let owner = window.jekyll.site.github.owner_name
+        let repo = window.jekyll.site.github.repository_name
+        let branch = window.jekyll.site.github.source.branch
+        let dir = window.jekyll.site.baseurl
+        window.ghbase = `${owner}/${repo}/${branch}/${dir}`
+      }      
       let ifcScript = document.createElement('script')
       ifcScript.src = `${location.port === '4001' ? 'http://localhost:3000': 'https://ifc.juncture-digital.org'}/js/index.js`
       ifcScript.type = 'module'
