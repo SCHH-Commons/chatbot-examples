@@ -3,7 +3,7 @@ layout: post
 title: Advice on golf cart performance upgrades
 description: Get suggestions for improving the performance of a vintage golf cart.
 date: 2025-03-07
-tags: research shopping advice
+tags: research shopping advice tech
 author: Ron Snyder
 ---
 
