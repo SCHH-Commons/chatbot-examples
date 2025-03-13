@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Stand-up comedy routine
+logo: openai.svg
 description: A stand-up comedy routine using SCHH Pickleball, Computer Club, and HOA as targets. Ouch!
 date: 2025-03-07
 tags: creativity entertainment chatgpt

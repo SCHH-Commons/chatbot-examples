@@ -1,6 +1,7 @@
 ---
 layout: post
 title: South Carolina Salt Marshes
+logo: openai.svg
 description: Learn about the ecology of the South Carolina salt marshes, including their role in the ecosystem and marine life cycles.
 date: 2025-03-04
 tags: education research chatgpt

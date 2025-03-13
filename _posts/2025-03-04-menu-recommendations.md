@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Menu Recommendations
+logo: openai.svg
 description: Receive meal recommendations using a smartphone photo of a restaurant menu. 
 date: 2025-03-04
 tags: advice food chatgpt

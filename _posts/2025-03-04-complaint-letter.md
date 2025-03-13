@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Complaint Letter
+logo: openai.svg
 description: Get assistance in drafting a complaint letter.  Multiple versions of the letter are generated using different tones, including one written in the style of Rodney Dangerfield.
 date: 2025-03-04
 tags: writing chatgpt

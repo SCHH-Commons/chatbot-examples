@@ -1,6 +1,7 @@
 ---
 layout: post
 title: iPhone Email Troubleshooting
+logo: openai.svg
 description: Use the AI chatbot to guide troubleshooting of an email problem encountered on an iPhone.
 date: 2025-03-04
 tags: tech productivity education chatgpt

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Medical Information
+logo: openai.svg
 description: Get detailed information on a not well understood medical condition.  
 date: 2025-03-04
 tags: advice education research chatgpt

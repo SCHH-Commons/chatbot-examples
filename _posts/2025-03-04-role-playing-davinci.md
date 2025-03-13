@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Learning about history through role playing
+logo: openai.svg
 description: The chatbot assumes the role of Leonardo da Vinci and responds to questions.
 date: 2025-03-07
 tags: education creativity entertainment chatgpt

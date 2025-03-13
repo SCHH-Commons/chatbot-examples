@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Golf cart brand comparison
+logo: openai.svg
 description: Top-level comparison of major golf cart brands.
 date: 2025-03-07
 tags: research shopping advice chatgpt

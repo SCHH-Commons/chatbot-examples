@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Vacation Planning
+logo: openai.svg
 description: Get itinerary suggestions for a road-trip vacation to Maine.
 date: 2025-03-04
 tags: advice travel chatgpt

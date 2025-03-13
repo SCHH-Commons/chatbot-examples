@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Image Analysis
+logo: openai.svg
 description: Request the chatbot to identify objects in smartphone photographs.  The photos include various types of wildlife.
 date: 2025-03-04
 tags: creativity education chatgpt
