@@ -13,7 +13,7 @@ title: Chatbots
 | Company | Chatbot | Free Models | Notes |
 | ------- | ------- | ----------- | ----- |
 | ![](/static/images/logos/openai.svg) OpenAI | <a href="https://chatgpt.com" target="_blank">ChatGPT</a> | GPT-4o, o3-mini (reasoning) | |
-| ![](/static/images/logos/gemini.svg) Google | <a href="https://claude.ai" target="_blank">Gemini</a> | 2.0 Flash, 2.0 Flash Thinking (reasoning) | |
+| ![](/static/images/logos/gemini.svg) Google | <a href="https://gemini.google.com/app" target="_blank">Gemini</a> | 2.0 Flash, 2.0 Flash Thinking (reasoning) | |
 | ![](/static/images/logos/claude.svg) Anthropic | <a href="" target="_blank">Claude</a> | 3.5 Sonnet | |
 | ![](/static/images/logos/meta-ai.png) Meta AI | <a href="https://www.meta.ai" target="_blank">Meta AI</a> | Llama 3.2, Llama 3,1, Llama 3.2 Editor | |
 | ![](/static/images/logos/copilot.svg) Microsoft | <a href="https://copilot.microsoft.com" target="_blank">Copilot</a> | GPT-4o, Prometheus | |
