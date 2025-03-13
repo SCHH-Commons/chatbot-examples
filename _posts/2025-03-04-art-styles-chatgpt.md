@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Exploring Art Styles
+logo: openai.svg
 description: Chatbot session in which an image is generated and then re-rendered in a variety of artistic styles.
 date: 2025-03-07
 tags: creativity education entertainment chatgpt
