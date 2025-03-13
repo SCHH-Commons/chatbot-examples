@@ -9,6 +9,7 @@ author:
 
 nav_pages:
   - about.md
+  - chatbots.md
   - contact.md
 
 max-width: 800px
