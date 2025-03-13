@@ -167,7 +167,9 @@
             main.querySelectorAll('img').forEach(img => {
               let imgUrl = new URL(img.src)
               if (location.origin === imgUrl.origin) {
-                img.src = `https://raw.githubusercontent.com/${ghbase}${imgUrl.pathname}`
+                console.log(imgUrl)
+                let [acct, repo, branch] = ghbase.split('/')
+                img.src = `https://raw.githubusercontent.com/${acct}/${repo}/${branch}${imgUrl.pathname}`
               }
               img.addEventListener('click', () => { 
                 dialogImg.src = img.src
