@@ -123,12 +123,12 @@
       window.contentSelector = '{{ site.content_selector }}'
       window.ghbase = '{{ site.ghbase }}'
       if (window.jekyll.site.github.owner_name) {
+        console.log(window.jekyll)
         let owner = window.jekyll.site.github.owner_name
         let repo = window.jekyll.site.github.repository_name
         let branch = window.jekyll.site.github.source.branch
         let dir = window.jekyll.site.baseurl
         window.ghbase = `${owner}/${repo}/${branch}/${dir}`
-        console.log(window.ghbase)
       }      
       let ifcScript = document.createElement('script')
       ifcScript.src = `${location.port === '4001' ? 'http://localhost:3000': 'https://ifc.juncture-digital.org'}/js/index.js`
