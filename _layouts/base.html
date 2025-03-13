@@ -144,8 +144,7 @@
         let owner = window.jekyll.site.github.owner_name
         let repo = window.jekyll.site.github.repository_name
         let branch = window.jekyll.site.github.source.branch
-        let baseurl = window.jekyll.site.baseurl
-        ghbase = `${owner}/${repo}/${branch}${baseurl}`
+        ghbase = `${owner}/${repo}/${branch}`
       }
       console.log(`ghbase: ${ghbase}`)
 
@@ -170,6 +169,7 @@
                 let path = imgUrl.pathname.slice(1).split('/')
                 let [acct, repo, branch] = ghbase.split('/')
                 // img.src = `https://raw.githubusercontent.com/${ghbase}/${path.slice(path[0] === window.jekyll.site.baseurl ? 1 : 0 ).join('/')}`
+                console.log(path, window.jekyll.site.baseurl)
                 console.log(`https://raw.githubusercontent.com/${ghbase}/${path.slice(path[0] === window.jekyll.site.baseurl ? 1 : 0 ).join('/')}`)
               }
               img.addEventListener('click', () => { 
