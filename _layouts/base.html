@@ -144,8 +144,8 @@
         let owner = window.jekyll.site.github.owner_name
         let repo = window.jekyll.site.github.repository_name
         let branch = window.jekyll.site.github.source.branch
-        let dir = window.jekyll.site.baseurl
-        ghbase = `${owner}/${repo}/${branch}`
+        let baseurl = window.jekyll.site.baseurl
+        ghbase = `${owner}/${repo}/${branch}${baseurl}`
       }
       console.log(`ghbase: ${ghbase}`)
 
@@ -168,8 +168,11 @@
               let imgUrl = new URL(img.src)
               if (location.origin === imgUrl.origin) {
                 console.log(imgUrl)
-                let [acct, repo, branch] = ghbase.split('/')
-                img.src = `https://raw.githubusercontent.com/${acct}/${repo}/${branch}${imgUrl.pathname}`
+                let path = imgUrl.pathname.slice(1).split('/')
+                console.log(path)
+                let [acct, repo, branch, ...dir] = ghbase.split('/')
+                console.log(acct, repo, branch, dir)
+                img.src = `https://raw.githubusercontent.com/${acct}/${repo}/${branch}${path.split(path[0] === dir[0] ? 1 : 0 ).join('/')}`
               }
               img.addEventListener('click', () => { 
                 dialogImg.src = img.src
