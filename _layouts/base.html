@@ -172,7 +172,7 @@
                 console.log(path)
                 let [acct, repo, branch, ...dir] = ghbase.split('/')
                 console.log(acct, repo, branch, dir)
-                img.src = `https://raw.githubusercontent.com/${acct}/${repo}/${branch}${path.slice(path[0] === dir[0] ? 1 : 0 ).join('/')}`
+                img.src = `https://raw.githubusercontent.com/${acct}/${repo}/${branch}/${path.slice(path[0] === dir[0] ? 1 : 0 ).join('/')}`
               }
               img.addEventListener('click', () => { 
                 dialogImg.src = img.src

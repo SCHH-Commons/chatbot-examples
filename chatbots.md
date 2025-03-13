@@ -13,6 +13,7 @@ title: Chatbots
 | Company | Chatbot | Free Models |
 | ------- | ------- | ----------- |
 | ![]({{ site.baseurl }}/static/images/logos/openai.svg) OpenAI | [ChatGPT](https://chatgpt.com/) | GPT-4o, o3-mini (reasoning) |
+| ![]({{ site.baseurl }}/static/images/logos/openai.svg) OpenAI | <a href="https://chatgpt.com" target="_blank">ChatGPT</a> | GPT-4o, o3-mini (reasoning) |
 | ![](/static/images/logos/gemini.svg) Google | [Gemini](https://gemini.google.com/app) | 2.0 Flash, 2.0 Flash Thinking (reasoning) |
 | ![](/static/images/logos/claude.svg) Anthropic | [Claude](https://claude.ai) | 3.5 Sonnet |
 | ![](/static/images/logos/meta-ai.png) Meta AI | [Meta AI](https://www.meta.ai/) | Llama 3.2, Llama 3,1, Llama 3.2 Editor |
