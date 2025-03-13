@@ -128,6 +128,7 @@
         let branch = window.jekyll.site.github.source.branch
         let dir = window.jekyll.site.baseurl
         window.ghbase = `${owner}/${repo}/${branch}/${dir}`
+        console.log(window.ghbase)
       }      
       let ifcScript = document.createElement('script')
       ifcScript.src = `${location.port === '4001' ? 'http://localhost:3000': 'https://ifc.juncture-digital.org'}/js/index.js`
@@ -164,14 +165,12 @@
                 section.innerHTML = `<div class="prompt" id="item-${idx}">${section.innerHTML}</div><sl-copy-button style="align-self: flex-end;" from="item-${idx}"></sl-copy-button>`
               }
             })
+            /*
             main.querySelectorAll('img').forEach(img => {
               let imgUrl = new URL(img.src)
               if (location.origin === imgUrl.origin) {
-                console.log(imgUrl)
                 let path = imgUrl.pathname.slice(1).split('/')
-                console.log(path)
                 let [acct, repo, branch, ...dir] = ghbase.split('/')
-                console.log(acct, repo, branch, dir)
                 img.src = `https://raw.githubusercontent.com/${acct}/${repo}/${branch}/${path.slice(path[0] === dir[0] ? 1 : 0 ).join('/')}`
               }
               img.addEventListener('click', () => { 
@@ -179,6 +178,7 @@
                 dialog.show()
               })
             })
+            */
           }
         })
       }).observe(document.documentElement || document.body, { childList: true, subtree: true, characterData: true })
