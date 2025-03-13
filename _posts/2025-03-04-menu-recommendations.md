@@ -3,7 +3,7 @@ layout: post
 title: Menu Recommendations
 description: Receive meal recommendations using a smartphone photo of a restaurant menu. 
 date: 2025-03-04
-tags: advice food
+tags: advice food chatgpt
 author: Ron Snyder
 ---
 

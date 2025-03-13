@@ -3,7 +3,7 @@ layout: post
 title: Floor Plan Analysis
 description: Submit an image of a floor plan for analysis and get suggestions om ways in which storage space could be improved.  Options for improving the kitchen pantry are discussed.
 date: 2025-03-04
-tags: advice
+tags: advice chatgpt
 author: Ron Snyder
 ---
 

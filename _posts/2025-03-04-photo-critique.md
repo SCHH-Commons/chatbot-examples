@@ -3,7 +3,7 @@ layout: post
 title: Photo Critique
 description: Analyze a photograph and provide suggestions on composition and post-processing improvements.
 date: 2025-03-04
-tags: creativity productivity advice education
+tags: creativity productivity advice education chatgpt
 author: Ron Snyder
 ---
 

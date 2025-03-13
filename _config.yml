@@ -1,6 +1,8 @@
 title: Chatbot Examples
+
 description: >
   Chatlogs from various chatbot examples.
+
 author:
   name: Ron Snyder
   email: ron@snyderjr.com
@@ -9,15 +11,18 @@ nav_pages:
   - about.md
   - contact.md
 
+max-width: 800px
+
 show_excerpts: true
 show_rss_feed: true
+
+show_excerpts: true
+show_rss_feed: true
+show_github_link: true
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-ghbase: "schh-commons/chatbot-examples/main"
-
 content_selector: div.post-content,div.home
-
-url: /chatbot-examples
+ghbase: "schh-commons/chatbot-examples/main"

@@ -3,7 +3,7 @@ layout: post
 title: Social Security Research
 description: A deep dive into the design and current challenges of the US Social Security system.  The research includes an overview of the system as it currently exists and discusses possible solutions to ensure long-term viability.
 date: 2025-03-04
-tags: education research advice
+tags: education research advice chatgpt
 author: Ron Snyder
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Medical Information
 description: Get detailed information on a not well understood medical condition.  
 date: 2025-03-04
-tags: advice education research
+tags: advice education research chatgpt
 author: Ron Snyder
 ---
 

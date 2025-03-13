@@ -3,7 +3,7 @@ layout: post
 title: Vehicle purchase advice
 description: Using ChatGPT's Deep Research mode, obtain a detailed analysis of the pros and cons of replacing a 2019 SUV with a newer EV hybrid.  For this analysis both practical considerations and environmental impacts are included in the analysis.
 date: 2025-03-04
-tags: research advice shopping
+tags: research advice shopping chatgpt
 author: Ron Snyder
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Meal Planning
 description: Get a one week meal plan for 2, including a detailed shopping list for all needed ingredients.  Specific requirements are provided for the generated meal plan.
 date: 2025-03-04
-tags: productivity food shopping advice
+tags: productivity food shopping advice chatgpt
 author: Ron Snyder
 ---
 

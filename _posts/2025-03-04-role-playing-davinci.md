@@ -3,7 +3,7 @@ layout: post
 title: Learning about history through role playing
 description: The chatbot assumes the role of Leonardo da Vinci and responds to questions.
 date: 2025-03-07
-tags: education creativity entertainment
+tags: education creativity entertainment chatgpt
 author: Ron Snyder
 ---
 

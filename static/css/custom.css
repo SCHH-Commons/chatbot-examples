@@ -1,3 +1,17 @@
+.footer-col {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.github-link {
+  margin-left: auto;
+}
+.github-link svg {
+  padding-left: 1em;
+  height: 1.4em;
+  width: 1.4em;
+}
+
 hr {
   clear: both;
 }
@@ -20,6 +34,32 @@ article.post > header {
   margin-bottom: 0.25em;
 }
 
+iframe {
+  display: block;
+  margin: 1em auto;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+iframe[src*="youtube"] {
+  aspect-ratio: 16/9;
+}
+
+iframe[src*="google.com/maps"] {
+  aspect-ratio: 1;
+}
+
+.caption {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+img[src*=".svg"] {
+  height: 1em;
+}
+
+pre { white-space: pre-wrap; word-wrap: break-word; }
 main.page-content { animation: fadeInOpacity ease 1s; }
 .chat { display: flex; flex-direction: column; margin: auto; }
 .prompt-wrapper { align-self: flex-end; max-width: 75%; }
@@ -43,7 +83,7 @@ padding: 1em;
 td { 
   overflow-wrap: break-word; 
   word-wrap: break-word; 
-  -ms-word-break: break-all; 
-  word-break: break-all; 
+  -ms-word-break: normal; 
+  word-break: normal; 
   vertical-align: top;
 }
