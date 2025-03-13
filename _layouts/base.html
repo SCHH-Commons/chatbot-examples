@@ -127,8 +127,7 @@
         let owner = window.jekyll.site.github.owner_name
         let repo = window.jekyll.site.github.repository_name
         let branch = window.jekyll.site.github.source.branch
-        let dir = window.jekyll.site.baseurl
-        window.ghbase = `${owner}/${repo}/${branch}/${dir}`
+        window.ghbase = `${owner}/${repo}/${branch}`
       }      
       let ifcScript = document.createElement('script')
       ifcScript.src = `${location.port === '4001' ? 'http://localhost:3000': 'https://ifc.juncture-digital.org'}/js/index.js`
@@ -165,20 +164,19 @@
                 section.innerHTML = `<div class="prompt" id="item-${idx}">${section.innerHTML}</div><sl-copy-button style="align-self: flex-end;" from="item-${idx}"></sl-copy-button>`
               }
             })
-            /*
             main.querySelectorAll('img').forEach(img => {
               let imgUrl = new URL(img.src)
               if (location.origin === imgUrl.origin) {
                 let path = imgUrl.pathname.slice(1).split('/')
-                let [acct, repo, branch, ...dir] = ghbase.split('/')
-                img.src = `https://raw.githubusercontent.com/${acct}/${repo}/${branch}/${path.slice(path[0] === dir[0] ? 1 : 0 ).join('/')}`
+                let [acct, repo, branch] = ghbase.split('/')
+                // img.src = `https://raw.githubusercontent.com/${ghbase}/${path.slice(path[0] === window.jekyll.site.baseurl ? 1 : 0 ).join('/')}`
+                console.log(`https://raw.githubusercontent.com/${ghbase}/${path.slice(path[0] === window.jekyll.site.baseurl ? 1 : 0 ).join('/')}`)
               }
               img.addEventListener('click', () => { 
                 dialogImg.src = img.src
                 dialog.show()
               })
             })
-            */
           }
         })
       }).observe(document.documentElement || document.body, { childList: true, subtree: true, characterData: true })
