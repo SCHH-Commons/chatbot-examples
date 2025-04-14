@@ -8,21 +8,21 @@ tags: education research chatgpt
 author: Ron Snyder
 ---
 
-#
-`.intro`
+# &nbsp;
+{: .intro}
 
 ---
 
-#
-`.chat`
+# &nbsp;
+{: .chat}
 
-##
+## &nbsp;
 
 I am studying a herbal from 1601, written by Carolus Clusius.  This document was written in Latin and includes a great many plant illustrations.  I am interested in learning how these illustrations were likely created.  I am including an image of a sample page for reference.
 
 ![](/chats/photos/herbal-page.jpg)
 
-##
+## &nbsp;
 
 The botanical illustrations in Clusius' *herbal* from 1601 were likely created using a combination of direct observation, skilled drawing, and woodcut printing techniques. Here’s an overview of how these illustrations were typically produced during this time:
 
@@ -54,11 +54,11 @@ The botanical illustrations in Clusius' *herbal* from 1601 were likely created u
 
 If you're interested in comparing techniques or learning about the engravers involved in Clusius’ herbal, I can help locate more details!
 
-##
+## &nbsp;
 
 How many hours would typically be needed to create a woodcut for a single illustration?
 
-##
+## &nbsp;
 
 The time required to create a **woodcut illustration** for a **16th-17th century herbal** like Clusius' would depend on several factors, including the complexity of the design, the engraver’s skill, and the level of detail needed for botanical accuracy. However, we can estimate the typical timeframe based on historical records of woodcut production.
 
@@ -96,11 +96,11 @@ The time required to create a **woodcut illustration** for a **16th-17th century
 
 Would you like insights on how multiple woodblocks were managed in large-scale herbal printing?
 
-##
+## &nbsp;
 
 In the provided sample page, can you identify the plant depicted in the illustration?
 
-##
+## &nbsp;
 
 The illustration on the provided sample page appears to depict **Viburnum tinus**, commonly known as **Laurustinus**. This plant is a flowering evergreen shrub that was widely documented in early herbals due to its medicinal and ornamental uses.
 
@@ -121,21 +121,21 @@ The illustration on the provided sample page appears to depict **Viburnum tinus*
 ### **Conclusion**
 Given the text references and the illustration details, the plant depicted on the page is most likely **Viburnum tinus (Laurustinus)**. If you'd like further confirmation, I can compare it to other historical botanical illustrations!
 
-##
+## &nbsp;
 
 Generate a photorealistic depiction of a Viburnum tinus
 
-##
+## &nbsp;
 
 Here is a photorealistic depiction of *Viburnum tinus*, showcasing its dark green oval-shaped leaves, clusters of small white to pale pink flowers, and metallic blue-black berries. Let me know if you need any modifications or additional details!
 
 ![](/chats/photos/viburnum-tinus.jpg)
 
-##
+## &nbsp;
 
 Regenerate this while trying to match the perspective from the herbal page sample.
 
-##
+## &nbsp;
 
 Here is a photorealistic depiction of *Viburnum tinus* designed to match the style and perspective of a historical botanical illustration, similar to those found in 17th-century herbals. Let me know if you’d like any refinements!
 

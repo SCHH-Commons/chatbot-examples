@@ -8,19 +8,19 @@ tags: education research chatgpt
 author: Ron Snyder
 ---
 
-#
-`.intro`
+# &nbsp;
+{: .intro}
 
 ---
 
-#
-`.chat`
+# &nbsp;
+{: .chat}
 
-##
+## &nbsp;
 
 I'm interested in learning about the ecology of the South Carolina salt marshes.  
 
-##
+## &nbsp;
 
 The **South Carolina salt marshes** are some of the most ecologically productive and unique environments in North America. These coastal wetlands are vital to both wildlife and human communities, serving as nurseries for marine species, protecting against storms, and filtering pollutants from water. Let’s dive into what makes them so fascinating.
 

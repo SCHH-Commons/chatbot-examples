@@ -8,19 +8,19 @@ tags: advice education research chatgpt
 author: Ron Snyder
 ---
 
-#
-`.intro`
+# &nbsp;
+{: .intro}
 
 ---
 
-#
-`.chat`
+# &nbsp;
+{: .chat}
 
-##
+## &nbsp;
 
 I have Synovial chondromatosis in my right knee. Tell me more about this condition.
 
-##
+## &nbsp;
 
 Synovial chondromatosis is a rare, non-cancerous joint condition where the synovium (the lining of the joint) produces small cartilage nodules. These nodules can either remain attached to the synovium or break loose, becoming loose bodies within the joint. Over time, they may calcify or ossify, leading to pain, swelling, and restricted movement.
 

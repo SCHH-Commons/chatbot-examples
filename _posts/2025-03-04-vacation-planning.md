@@ -8,21 +8,21 @@ tags: advice travel chatgpt
 author: Ron Snyder
 ---
 
-#
-`.intro`
+# &nbsp;
+{: .intro}
 
 In this example itinerary suggestions are requested for a road trip to Maine.
 
 ---
 
-#
-`.chat`
+# &nbsp;
+{: .chat}
 
-##
+## &nbsp;
 
 I am considering a road-trip vacation to Maine this summer.  I'll be departing from my home in Sun City Hilton Head and will probably have 10-14 days for the round trip.  I would like to drive no more than 8 hours per day with frequent (every 1-2 hrs) stops.  I prefer to avoid congested areas as much as possible.  Suggest a couple of possible itineraries.
 
-##
+## &nbsp;
 
 Here are two itinerary options for your road trip to Maine, considering your preferences for driving limits, frequent stops, and avoiding congestion.
 
@@ -116,11 +116,11 @@ This route follows a more inland, nature-focused path, avoiding major urban area
 
 Would you like adjustments, or do you have specific places you want to visit?
 
-##
+## &nbsp;
 
 Where's the best place to experience lobster rolls.
 
-##
+## &nbsp;
 
 If you're looking for the best place to experience lobster rolls in Maine, you’ll have plenty of options, but here are a few standout spots depending on the type of experience you want:
 

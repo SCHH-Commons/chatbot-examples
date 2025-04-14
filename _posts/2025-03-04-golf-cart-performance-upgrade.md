@@ -8,17 +8,17 @@ tags: research shopping advice tech chatgpt
 author: Ron Snyder
 ---
 
-#
-`.intro`
+# &nbsp;
+{: .intro}
 
-#
-`.chat`
+# &nbsp;
+{: .chat}
 
-##
+## &nbsp;
 
 I have a 2004 Club Car DS.  I have recently upgraded the batteries to Lithium Ion and added a 3# lift kit with new radial tires.  The top-end on the cart is about 21 mph with significant degradation when going uphill.  What are some options for improving the performance of this cart?  Most of its use will be on paved neighborhood roads with occasional golf course use.
 
-##
+## &nbsp;
 
 With your **2004 Club Car DS** now running **Lithium-ion batteries**, a **3" lift kit**, and **radial tires**, you're already off to a great start. However, the **21 MPH top speed with noticeable slowdown on inclines** suggests that the **stock controller and motor setup** is limiting performance.  
 
@@ -77,11 +77,11 @@ With your **2004 Club Car DS** now running **Lithium-ion batteries**, a **3" lif
 
 Let me know if you want specific part recommendations based on **budget vs. performance goals!** 
 
-##
+## &nbsp;
 
 I've read that converting from DC to AC can offer drastic improvements in speed and battery efficiency.  What do you think about that?
 
-##
+## &nbsp;
 
 You're absolutely right—**converting from a DC motor to an AC system** can provide **significant performance improvements**, particularly in terms of **speed, torque, battery efficiency, and regenerative braking**. Given that you already have a **Lithium-ion battery setup**, an **AC conversion could maximize your Club Car DS’s potential**.
 

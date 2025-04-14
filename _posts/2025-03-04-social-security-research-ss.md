@@ -8,8 +8,8 @@ tags: education research advice chatgpt
 author: Ron Snyder
 ---
 
-#
-`.intro`
+# &nbsp;
+{: .intro}
 
 Deep Research mode is an advanced AI capability that enables extended, multi-step reasoning and in-depth exploration of complex topics. It allows for more comprehensive analysis, iterative investigation, and synthesis of information across multiple queries, making it ideal for tasks that require thorough understanding, cross-referencing, or step-by-step problem-solving.
 
@@ -19,10 +19,10 @@ Deep Research resource intensive and can take many minutes to complete.  This ex
 
 ---
 
-#
-`.chat`
+# &nbsp;
+{: .chat}
 
-##
+## &nbsp;
 
 I am interested in understanding the US Social Security system.  Specifically,
 
@@ -30,7 +30,7 @@ I am interested in understanding the US Social Security system.  Specifically,
 - The long term viability of the system given changing demographics.  
 - Credible solutions for revision to ensure long lasting viability for the current and future generations.  
 
-##
+## &nbsp;
 
 Thanks for your interest! To provide a thorough analysis, could you clarify:
 
@@ -41,14 +41,14 @@ Thanks for your interest! To provide a thorough analysis, could you clarify:
 
 Let me know how detailed you’d like the research to be!
 
-##
+## &nbsp;
 
 - I would like some historical context but am primarily interested in the current funding and solvency.  
 - Include projections based on likely demographic trends.  
 - Contrasting the US system with other countries would be helpful.  
 - Regarding possible reforms, include any credible sources that can inform and support realistic solutions.  
 
-##
+## &nbsp;
 
 Got it! I'll research the U.S. Social Security system, focusing on its funding mechanisms, solvency projections, and the impact of demographic shifts. I'll also compare it with similar programs in other countries and explore credible, expert-backed reform proposals to ensure long-term viability. I'll provide insights from government reports, economic studies, and policy experts. I'll let you know once the findings are ready.
 

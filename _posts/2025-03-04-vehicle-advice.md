@@ -8,13 +8,13 @@ tags: research advice shopping chatgpt
 author: Ron Snyder
 ---
 
-#
-`.intro`
+# &nbsp;
+{: .intro}
 
-#
-`.chat`
+# &nbsp;
+{: .chat}
 
-##
+## &nbsp;
 
 - I have a 2019 Subaru Ascent with 100,000 miles.  While it has be a reliable vehicle it is overkill for much of the driving I do now.
 - I take frequent road trips from my home in South Carolina to Michigan (4+ per year) totaling around 2,500 miles per trip.
@@ -24,7 +24,7 @@ author: Ron Snyder
 - If I were to make such a switch I'd also like to understand the environment impact of the change.  Over the long haul would this be a net plus or minus for the environment when considering all factors.
 - While I mention the Prius as the car to use for the main comparison, I am open to other options.  My priorities are reliability, safety, economy and environmental impact.
 
-##
+## &nbsp;
 
 Thanks for the detailed background! Before diving in, could you clarify a few things?
 
@@ -36,7 +36,7 @@ Thanks for the detailed background! Before diving in, could you clarify a few th
 
 Once I have these details, I can provide a much more precise analysis tailored to your needs!
 
-##
+## &nbsp;
 
 1. I'm looking for good value and am somewhat flexible budget-wise.  Ideally I'd like to keep the net cost of the initial transaction to 30k or so when considering the trade-in value of the Ascent and the new purchase price of the target vehicle.
 2. I don't have a problem in down-sizing from the 3-row Ascent to something smaller.  I would not want to go any smaller than a Prius though, and even that is somewhat marginal.
@@ -44,7 +44,7 @@ Once I have these details, I can provide a much more precise analysis tailored t
 4. I would expect this to be a vehicle that I would keep "forever".
 5. AWD is not strictly required but would be of interest if the price difference was not huge.  We'd also want to take into account the overall reliability and economy of AWD vs FWD.
 
-##
+## &nbsp;
 
 Got it! I'll research suitable hybrid vehicles that align with your needs, comparing them to your 2019 Subaru Ascent in terms of financial impact (trade-in value, purchase cost, maintenance, and long-term costs), safety ratings, and environmental impact.
 

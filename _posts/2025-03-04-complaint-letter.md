@@ -8,15 +8,15 @@ tags: writing chatgpt
 author: Ron Snyder
 ---
 
-#
-`.intro`
+# &nbsp;
+{: .intro}
 
 ---
 
-#
-`.chat`
+# &nbsp;
+{: .chat}
 
-##
+## &nbsp;
 
 Draft a complaint letter for me regarding a recent hotel stay.  The issues were:
 - Unclean condition on arrival.
@@ -25,7 +25,7 @@ Draft a complaint letter for me regarding a recent hotel stay.  The issues were:
 
 The letter should be strongly worded and demand a full refund.
 
-##
+## &nbsp;
 
 Here's a draft of your complaint letter:  
 
@@ -69,11 +69,11 @@ Sincerely,
 
 This version keeps the tone professional yet firm, making it clear that a refund is expected while also implying potential escalation if the issue is not resolved. Let me know if you’d like to adjust the wording further!
 
-##
+## &nbsp;
 
 Generate another version with a lighter touch, maybe even insert a little humor.
 
-##
+## &nbsp;
 
 Sure! Here’s a version with a lighter tone and a touch of humor while still making it clear that you expect a refund:  
 
@@ -114,11 +114,11 @@ Best,
 
 This keeps things light but still makes it clear that you were dissatisfied and expect a refund. Let me know if you'd like any tweaks!
 
-##
+## &nbsp;
 
 For the fun of it, give me a Rodney Dangerfield version too.
 
-##
+## &nbsp;
 
 Absolutely! Here’s a version in the style of Rodney Dangerfield—full of self-deprecating humor and zingers while still making it clear you want a refund.  
 

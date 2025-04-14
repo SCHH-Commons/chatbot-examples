@@ -8,8 +8,8 @@ tags: creativity education entertainment gemini
 author: Ron Snyder
 ---
 
-#
-`.intro`
+# &nbsp;
+{: .intro}
 
 In this example:
 1. A list of common art styles is requested
@@ -18,14 +18,14 @@ In this example:
 
 ---
 
-#
-`.chat`
+# &nbsp;
+{: .chat}
 
-##
+## &nbsp;
 
 List the most common art styles.
 
-##
+## &nbsp;
 
 **Major Art Styles:**
 
@@ -59,61 +59,61 @@ List the most common art styles.
 * Abstract Expressionism:
     * This style is known for having very expressive brush strokes.
 
-##
+## &nbsp;
 
 Generate a picture of a landscape with a farmhouse and field of sunflowers. Include a barn and fence for interest.
 
-##
+## &nbsp;
 
 Sure, here is an image of a landscape with a farmhouse and field of sunflowers, including a barn and fence for interest:
 
 ![](/chats/photos/farmhouse-landscape-gemini.jpg)
 
-##
+## &nbsp;
 
 Re-render this in the Impressionism style.
 
-##
+## &nbsp;
 
 Sure!
 
 ![](/chats/photos/farmhouse-landscape-impressionism-gemini.jpg)
 
-##
+## &nbsp;
 
 Now, in the Expressionism style.
 
-##
+## &nbsp;
 
 Sure!
 
 ![](/chats/photos/farmhouse-landscape-expressionism-gemini.jpg)
 
-##
+## &nbsp;
 
 Let’s try Romanticism next.
 
-##
+## &nbsp;
 
 Sure, here it is.
 
 ![](/chats/photos/farmhouse-landscape-romanticism-gemini.jpg)
 
-##
+## &nbsp;
 
 Let’s see it using the Cubism style.
 
-##
+## &nbsp;
 
 Sure, here it is.
 
 ![](/chats/photos/farmhouse-landscape-cubism-gemini.jpg)
 
-##
+## &nbsp;
 
 Now, a depiction in the Surrealism style.
 
-##
+## &nbsp;
 
 Sure! here is an image of a landscape with a farmhouse and field of sunflowers, including a barn and fence for interest, rendered in the Surrealism style:
 

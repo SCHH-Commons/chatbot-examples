@@ -119,7 +119,7 @@
       import 'https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/components/details/details.js';
       import 'https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/components/dialog/dialog.js';
 
-      window.jekyll = {site:{baseurl:'{{site.baseurl}}',github:{owner_name:'{{site.github.owner_name}}',repository_name:'{{site.github.repository_name}}',source:{branch:'{{site.github.source.branch}}'}}},page:{path:'{{page.path}}',dir:'{{page.dir}}',name:'{{page.name}}'}}
+      window.jekyll = {site:{baseurl:'{{site.baseurl}}', contentSelector:'{{site.contentSelector}}', github:{owner_name:'{{site.github.owner_name}}',repository_name:'{{site.github.repository_name}}',source:{branch:'{{site.github.source.branch}}'}}},page:{path:'{{page.path}}',dir:'{{page.dir}}',name:'{{page.name}}',contentSelector:'{{page.contentSelector}}'}}
       window.contentSelector = '{{ site.content_selector }}'
       window.ghbase = '{{ site.ghbase }}'
       if (window.jekyll.site.github.owner_name) {
@@ -151,32 +151,44 @@
       const dialog = document.getElementById('image-viewer')
       const dialogImg = dialog.querySelector('img')
 
+      const structureContent = (el) => {
+        console.log('structureContent', el)
+        el.querySelectorAll('.chat > section').forEach((section, idx) => {
+          if (idx % 2) { // response
+            section.classList.add('response')
+          } else { // prompt
+            section.classList.add('prompt-wrapper')
+            section.innerHTML = `<div class="prompt" id="item-${idx}">${section.innerHTML}</div><sl-copy-button style="align-self: flex-end;" from="item-${idx}"></sl-copy-button>`
+          }
+        })
+        el.querySelectorAll('img').forEach(img => {
+          let imgUrl = new URL(img.src)
+          if (location.origin === imgUrl.origin) {
+            let path = imgUrl.pathname.slice(1).split('/')
+            img.src = `https://raw.githubusercontent.com/${ghbase}/${path.slice(path[0] === window.jekyll.site.baseurl.slice(1) ? 1 : 0 ).join('/')}`
+          }
+          img.addEventListener('click', () => { 
+            dialogImg.src = img.src
+            dialog.show()
+          })
+        })
+      }
+
+      setTimeout(() => {
+      let main = document.querySelector('.chat')
+      structureContent(main)
+      }, 100)
+
+      /*
       new MutationObserver((mutations) => {
         mutations.forEach(mutation => {
           if (mutation.target.tagName === 'ARTICLE' && mutation.target.classList.contains('post')) {
             let main = mutation.target.querySelector('main')
-            main.querySelectorAll('.chat > section').forEach((section, idx) => {
-              if (idx % 2) { // response
-                section.classList.add('response')
-              } else { // prompt
-                section.classList.add('prompt-wrapper')
-                section.innerHTML = `<div class="prompt" id="item-${idx}">${section.innerHTML}</div><sl-copy-button style="align-self: flex-end;" from="item-${idx}"></sl-copy-button>`
-              }
-            })
-            main.querySelectorAll('img').forEach(img => {
-              let imgUrl = new URL(img.src)
-              if (location.origin === imgUrl.origin) {
-                let path = imgUrl.pathname.slice(1).split('/')
-                img.src = `https://raw.githubusercontent.com/${ghbase}/${path.slice(path[0] === window.jekyll.site.baseurl.slice(1) ? 1 : 0 ).join('/')}`
-              }
-              img.addEventListener('click', () => { 
-                dialogImg.src = img.src
-                dialog.show()
-              })
-            })
+            structureContent(main)
           }
         })
       }).observe(document.documentElement || document.body, { childList: true, subtree: true, characterData: true })
+      */
 
     </script>
   </body>

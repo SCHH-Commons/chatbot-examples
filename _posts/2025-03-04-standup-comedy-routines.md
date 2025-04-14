@@ -8,17 +8,17 @@ tags: creativity entertainment chatgpt
 author: Ron Snyder
 ---
 
-#
-`.intro`
+# &nbsp;
+{: .intro}
 
-#
-`.chat`
+# &nbsp;
+{: .chat}
 
-##
+## &nbsp;
 
 Create a short stand-up comedy routine using SCHH Pickleball as the theme.
 
-##
+## &nbsp;
 
 ### **Stand-Up Comedy Routine: SCHH Pickleball Chronicles**  
 
@@ -49,11 +49,11 @@ Create a short stand-up comedy routine using SCHH Pickleball as the theme.
 **[Takes exaggerated bow, walks off stage with paddle in hand]**  
 🏓🎤 **Mic drop.**
 
-##
+## &nbsp;
 
 Now create another roasting the SCHH Computer Club.  Don't hold back.
 
-##
+## &nbsp;
 
 ### **Stand-Up Comedy Routine: Roasting the SCHH Computer Club**  
 
@@ -99,11 +99,11 @@ Now create another roasting the SCHH Computer Club.  Don't hold back.
 **[Walks off stage to applause]**  
 🎤🏆
 
-##
+## &nbsp;
 
 Now for an easy target - take your best shot at our HOA.
 
-##
+## &nbsp;
 
 ### **Stand-Up Comedy Routine: Roasting the SCHH HOA**  
 
