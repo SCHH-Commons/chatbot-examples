@@ -152,7 +152,6 @@
       const dialogImg = dialog.querySelector('img')
 
       const structureContent = (el) => {
-        console.log('structureContent', el)
         el.querySelectorAll('.chat > section').forEach((section, idx) => {
           if (idx % 2) { // response
             section.classList.add('response')
@@ -175,8 +174,8 @@
       }
 
       setTimeout(() => {
-      let main = document.querySelector('.chat')
-      structureContent(main)
+        let main = document.querySelector('.chat')
+        if (main) structureContent(main)
       }, 100)
 
       /*
