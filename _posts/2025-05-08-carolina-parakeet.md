@@ -7,6 +7,10 @@ tags: creativity education entertainment chatgpt
 author: Ron Snyder
 ---
 
+**Listen to the podcast***
+
+`audio src=/static/Carolina_Parakeet_Podcast.mp3 .medium`
+
 # Brilliant Plumes, Silent Forests: The Story of the Carolina Parakeet
 
 `image src=/static/images/Carolina_Parakeet.png .right`
