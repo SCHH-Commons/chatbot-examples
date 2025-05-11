@@ -9,7 +9,7 @@ author: Ron Snyder
 
 **Listen to the podcast***
 
-`audio src=/static/Carolina_Parakeet_Podcast.mp3 .medium`
+`audio src=/static/Carolina_Parakeet_Podcast.mp3 .left .medium`
 
 # Brilliant Plumes, Silent Forests: The Story of the Carolina Parakeet
 
