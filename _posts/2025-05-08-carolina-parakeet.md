@@ -7,12 +7,9 @@ tags: creativity education entertainment chatgpt
 author: Ron Snyder
 ---
 
-Great. I’ll begin researching an in-depth narrative feature on the Carolina Parakeet, exploring its natural history, extinction, and legacy. The piece will include historical sightings, cultural references, ecological role, and lessons for modern conservation—crafted in a storytelling style suitable for both blog publication and podcast narration.
-
-I’ll let you know when the article is ready for review.
-
-
 # Brilliant Plumes, Silent Forests: The Story of the Carolina Parakeet
+
+`image src=/static/images/Carolina_Parakeet.png .right`
 
 **Introduction – A Flash of Green and Gold:** In a long-ago Southern swamp, the air once rang with shrill chatter as flashes of emerald and saffron darted between cypress trees. These were Carolina Parakeets – the only native parrot of the eastern United States – gathering by the hundreds in verdant flocks. Early settlers and Indigenous peoples alike marveled at (and sometimes cursed) these noisy, colorful birds. Yet today, not a single wild Carolina Parakeet remains. By the mid-20th century, this vibrant species had vanished, leaving behind only skins in museums and stories in history books. What happened to these beautiful “green birds,” and what legacy did they leave? This narrative traces the Carolina Parakeet’s natural history, its tragic extinction, and the lessons it holds for us now.
 
