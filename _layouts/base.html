@@ -130,7 +130,7 @@
         window.ghbase = `${owner}/${repo}/${branch}`
       }      
       let ifcScript = document.createElement('script')
-      ifcScript.src = `${location.port === '4001' ? 'http://localhost:3000': 'https://ifc.juncture-digital.org'}/js/index.js`
+      ifcScript.src = `${location.port === '4100' ? 'http://localhost:3000': 'https://www.juncture-digital.io'}/js/index.js`
       ifcScript.type = 'module'
       document.body.appendChild(ifcScript)
 
