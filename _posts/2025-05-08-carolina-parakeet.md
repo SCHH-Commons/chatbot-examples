@@ -7,7 +7,7 @@ tags: creativity education entertainment chatgpt
 author: Ron Snyder
 ---
 
-`audio src=/static/Carolina_Parakeet_Podcast.mp3 caption="Listen to the Podcast" .left .medium`
+`audio src=/static/Carolina_Parakeet_Podcast.mp3 caption="Listen to the Podcast" .small`
 
 ---
 
