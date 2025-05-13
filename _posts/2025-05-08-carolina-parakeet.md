@@ -7,7 +7,18 @@ tags: creativity education entertainment chatgpt
 author: Ron Snyder
 ---
 
-`audio src=/static/Carolina_Parakeet_Podcast.mp3 caption="Listen to the Podcast" .medium`
+## Example of AI Generated Article and Podcast
+
+The text for this article was generated with ChatGPT Deep Research using the prompt:
+
+Write a well-researched, engaging article tracing the natural history, extinction, and legacy of the Carolina Parakeet. Include historical sightings, cultural references, ecological role, and conservation lessons.
+{: .prompt}
+
+The podcast was generated using the Notebook LM audio overview feature with the ChatGPT Deep Research output as the source.
+
+---
+
+`audio src=/static/audio/Carolina_Parakeet_Podcast.mp3 caption="Listen to the Podcast" .medium`
 
 ---
 

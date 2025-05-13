@@ -13,6 +13,10 @@ Additionally, **images included in the chatlogs**—whether they appear in promp
 
 Chatbots are AI-powered assistants designed to understand and respond to natural language input. They can help with a wide range of tasks, from answering questions and generating creative content to providing recommendations and troubleshooting issues. Modern chatbots, like ChatGPT, use advanced language models to engage in human-like conversations, making them a valuable tool for both personal and professional use.  
 
+### Chatbot Privacy Policies
+
+Refer to this document for an explanation of Data and Privacy policies for popular AI tools - [AI_Tools - Privacy Policies Explained](/static/pdfs/AI_Tools_-_Privacy_Policies_Explained)
+
 ## Stay Updated with RSS  
 
 This site offers an **RSS feed**, which allows you to stay up to date with new posts without needing to check the site manually. **RSS (Really Simple Syndication)** is a web feed format that lets you subscribe to updates using an RSS reader or a compatible web browser. When a new chatbot conversation is published, it will automatically appear in your feed, keeping you informed of the latest examples. You can use an RSS reader like **Feedly, Inoreader, or even a browser extension** to subscribe and receive updates conveniently.  
