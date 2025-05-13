@@ -15,7 +15,7 @@ Chatbots are AI-powered assistants designed to understand and respond to natural
 
 ### Chatbot Privacy Policies
 
-Refer to this document for an explanation of Data and Privacy policies for popular AI tools - [AI_Tools - Privacy Policies Explained](/static/pdfs/AI_Tools_-_Privacy_Policies_Explained)
+Refer to this document for an explanation of Data and Privacy policies for popular AI tools - [AI_Tools - Privacy Policies Explained]({{ site.baseurl }}/static/pdfs/AI_Tools_-_Privacy_Policies_Explained)
 
 ## Stay Updated with RSS  
 

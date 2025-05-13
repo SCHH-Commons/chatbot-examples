@@ -14,6 +14,8 @@ The text for this article was generated with ChatGPT Deep Research using the pro
 Write a well-researched, engaging article tracing the natural history, extinction, and legacy of the Carolina Parakeet. Include historical sightings, cultural references, ecological role, and conservation lessons.
 {: .prompt}
 
+The image of the Carolina Parakeet was created using the ChatGPT 4o image generation 
+
 The podcast was generated using the Notebook LM audio overview feature with the ChatGPT Deep Research output as the source.
 
 ---
