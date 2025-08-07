@@ -130,8 +130,9 @@
         window.ghbase = `${owner}/${repo}/${branch}`
       }      
       let ifcScript = document.createElement('script')
-      ifcScript.src = `${location.port === '4100' ? 'http://localhost:3000': 'https://www.juncture-digital.io'}/js/index.js`
-      ifcScript.type = 'module'
+      ifcScript.src = `${location.port === '4100' ? 'http://localhost:3000': 'https://www.juncture-digital.io'}/js/juncture.js`
+      ifcScript.id = 'loader'
+      ifcScript.dataset.ghbase = 'schh-commons/chatbot-examples/main'
       document.body.appendChild(ifcScript)
 
       maxWidth = maxWidth || '{{ site.max-width }}'
